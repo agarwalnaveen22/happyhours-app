@@ -1,0 +1,67 @@
+<ion-view hide-nav-bar="true">
+
+    <ion-header-bar class=" bar bar-header nav-bar-color headbar1">
+        <button class="button button-icon icon ion-drag" style="background: transparent;border-color: transparent;color: white;margin-left:1%;" ng-click="left()"></button>
+
+        <p class="title" style="line-height:60px">HOME</p>
+        <button class="button button-icon icon ion-map mapicon" ng-click="gotomaps()"></button>
+    </ion-header-bar>
+    <ion-content overflow-scroll="true" style="background-color:black" class="has-header">
+        <div class="list list-inset searchspace">
+                    <label  class="item item-input">
+                        <i class="icon ion-search placeholder-icon"></i>
+                        <input type="text" ng-model="searchKeyword" placeholder="Search">
+                    </label>
+                </div>
+        <ul style="height:178px">
+            <div class="div" style="height:100%;" ng-repeat="deal in deals | filter: searchKeyword">
+                <div ng-if="deal.Deal.image==''" class="homeDiv" ng-click="gotodeal(deal.Deal.id)" style="background: url(img/beerback4.jpg);background-size:100%;">
+                </div>
+                <div ng-if="deal.Deal.image!=''" class="homeDiv" ng-click="gotodeal(deal.Deal.id)" style="background: url({{imageUrl}}{{deal.Deal.image}});background-size:100%;">
+                </div>
+                <div class="blurry">
+                    <div class="row">
+                        <div class="col col-67">
+                            <p style="color: yellow;font-size: 14px;margin-left:0%;margin-bottom:-8%;"><b> {{deal.Deal.name | capitalize}}</b></p>
+                        </div>
+                        <div class="col col-33">
+                            <fieldset class="rating">
+                                <label for="star05" title="very good">5 stars</label>
+                                <label for="star04" title="good">4 stars</label>
+                                <label for="star03" title="average">3 stars</label>
+                                <label for="star02" title="bad">2 stars</label>
+                                <label for="star01" title="very bad">1 star</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-67">
+                            <p class="" style="font-size:14px;margin-top: 4px; margin-left:0%;">{{deal.SupplierDetail.company_name | capitalize}}</p>
+                        </div>
+                        <div class="col col-33">
+                            <p class="money">${{deal.Deal.amount}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="homedivDiv">
+                    <h5 class="barTime">{{deal.SupplierDetail.day_to}} to {{deal.SupplierDetail.day_from}}, {{deal.SupplierDetail.time_to}} to {{deal.SupplierDetail.time_from}} </h5>
+                    <h5 class="barDetails">{{deal.Deal.description | capitalize}}</h5>
+                    <p class="barDetails1">{{deal[0].distance | number : 2}} Km Away</p>
+                    <button class="bookButton button-small" ng-click="gotobook(deal.Deal.id)"> BOOK THE DEAL</button>
+                </div>
+            </div>
+
+        </ul>
+    </ion-content>
+</ion-view>
+
+
+
+
+
+<!--              <label id="muid" class="searchBox" search-box>
+                                <a  id="muid" style="z-index:55;;left:10%;position:absolute;font-size:20px;color:white" ></a>
+               <a class="icon ion-search" id="muid" style="z-index:55;right:6.5%;position:absolute;font-size:20px;color:white"></a>
+
+               <input type="text" name="search" placeholder="Search" id="muid" style="z-index:65;"/>
+              </label> -->

@@ -1,0 +1,729 @@
+[
+    {
+        "outputFile": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\values-pt-rPT\\values-pt-rPT.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 168,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 168,
+                        "endOffset": 219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 123,
+                    "endOffset": 393
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endColumn": 123,
+                        "endOffset": 343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 398,
+                    "endColumn": 147,
+                    "endOffset": 541
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 348,
+                        "endColumn": 147,
+                        "endOffset": 491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 546,
+                    "endColumn": 93,
+                    "endOffset": 635
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 496,
+                        "endColumn": 93,
+                        "endOffset": 585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 640,
+                    "endColumn": 65,
+                    "endOffset": 701
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 590,
+                        "endColumn": 65,
+                        "endOffset": 651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 706,
+                    "endColumn": 68,
+                    "endOffset": 770
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 656,
+                        "endColumn": 68,
+                        "endOffset": 720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 775,
+                    "endColumn": 62,
+                    "endOffset": 833
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 725,
+                        "endColumn": 62,
+                        "endOffset": 783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 838,
+                    "endColumn": 73,
+                    "endOffset": 907
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 788,
+                        "endColumn": 73,
+                        "endOffset": 857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 912,
+                    "endColumn": 79,
+                    "endOffset": 987
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 862,
+                        "endColumn": 79,
+                        "endOffset": 937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 992,
+                    "endColumn": 99,
+                    "endOffset": 1087
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 942,
+                        "endColumn": 99,
+                        "endOffset": 1037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1092,
+                    "endColumn": 81,
+                    "endOffset": 1169
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1042,
+                        "endColumn": 81,
+                        "endOffset": 1119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1174,
+                    "endColumn": 81,
+                    "endOffset": 1251
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1124,
+                        "endColumn": 81,
+                        "endOffset": 1201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1256,
+                    "endColumn": 94,
+                    "endOffset": 1346
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1206,
+                        "endColumn": 94,
+                        "endOffset": 1296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1351,
+                    "endColumn": 115,
+                    "endOffset": 1462
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1301,
+                        "endColumn": 115,
+                        "endOffset": 1412
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1467,
+                    "endColumn": 64,
+                    "endOffset": 1527
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1417,
+                        "endColumn": 64,
+                        "endOffset": 1477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1532,
+                    "endColumn": 68,
+                    "endOffset": 1596
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1482,
+                        "endColumn": 68,
+                        "endOffset": 1546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1601,
+                    "endColumn": 147,
+                    "endOffset": 1744
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1551,
+                        "endColumn": 147,
+                        "endOffset": 1694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1749,
+                    "endColumn": 106,
+                    "endOffset": 1851
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 333,
+                        "endColumn": 106,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1856,
+                    "endColumn": 194,
+                    "endOffset": 2046
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 194,
+                        "endOffset": 630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2051,
+                    "endColumn": 129,
+                    "endOffset": 2176
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 635,
+                        "endColumn": 129,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2181,
+                    "endColumn": 130,
+                    "endOffset": 2307
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 765,
+                        "endColumn": 130,
+                        "endOffset": 891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2312,
+                    "endColumn": 230,
+                    "endOffset": 2538
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 896,
+                        "endColumn": 230,
+                        "endOffset": 1122
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2543,
+                    "endColumn": 228,
+                    "endOffset": 2767
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1127,
+                        "endColumn": 228,
+                        "endOffset": 1351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2772,
+                    "endColumn": 129,
+                    "endOffset": 2897
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1356,
+                        "endColumn": 129,
+                        "endOffset": 1481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2902,
+                    "endColumn": 137,
+                    "endOffset": 3035
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1486,
+                        "endColumn": 137,
+                        "endOffset": 1619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3040,
+                    "endColumn": 260,
+                    "endOffset": 3296
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 260,
+                        "endOffset": 591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3301,
+                    "endColumn": 273,
+                    "endOffset": 3570
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1624,
+                        "endColumn": 273,
+                        "endOffset": 1893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3575,
+                    "endColumn": 126,
+                    "endOffset": 3697
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1898,
+                        "endColumn": 126,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3702,
+                    "endColumn": 109,
+                    "endOffset": 3807
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 109,
+                        "endOffset": 2130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3812,
+                    "endColumn": 200,
+                    "endOffset": 4008
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2135,
+                        "endColumn": 200,
+                        "endOffset": 2331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 4013,
+                    "endColumn": 132,
+                    "endOffset": 4141
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2336,
+                        "endColumn": 132,
+                        "endOffset": 2464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 4146,
+                    "endColumn": 217,
+                    "endOffset": 4359
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2469,
+                        "endColumn": 217,
+                        "endOffset": 2682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 4364,
+                    "endColumn": 139,
+                    "endOffset": 4499
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2687,
+                        "endColumn": 139,
+                        "endOffset": 2822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4504,
+                    "endColumn": 207,
+                    "endOffset": 4707
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2827,
+                        "endColumn": 207,
+                        "endOffset": 3030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4712,
+                    "endColumn": 97,
+                    "endOffset": 4805
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 3035,
+                        "endColumn": 97,
+                        "endOffset": 3128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4810,
+                    "endColumn": 98,
+                    "endOffset": 4904
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 3133,
+                        "endColumn": 98,
+                        "endOffset": 3227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 4909,
+                    "endColumn": 115,
+                    "endOffset": 5020
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\values-pt-rPT\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3232,
+                        "endColumn": 115,
+                        "endOffset": 3343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 5025,
+                    "endColumn": 61,
+                    "endOffset": 5082
+                },
+                "from": {
+                    "file": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1699,
+                        "endColumn": 61,
+                        "endOffset": 1756
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\happyhours\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="D:\happyhours\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_a6827580bbada3b95008715e134f6fb3ff797c69.jar" />
+    </item>
+    <item
+        jar="D:\happyhours\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="D:\happyhours\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_a19794c4683bd40af2f0825d4948fd90dc2e134f.jar" />
+    </item>
+    <item
+        jar="D:\happyhours\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="D:\happyhours\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-9.4.0_33d9b815a5a34b61b8cc237266d7b65238c0561e.jar" />
+    </item>
+    <item
+        jar="D:\happyhours\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="D:\happyhours\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-9.4.0_b76a676cfb6613176dcae529096cfb238028c0bd.jar" />
+    </item>
+    <item
+        jar="D:\happyhours\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="D:\happyhours\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_4d8d6805a643b6a1ad46d79f633d4efa3882a06b.jar" />
+    </item>
+    <item
+        jar="D:\happyhours\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="D:\happyhours\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-9.4.0_367b8eb0efdf6ea3bd8be2504093f1a5c690c885.jar" />
+    </item>
+
+</items>

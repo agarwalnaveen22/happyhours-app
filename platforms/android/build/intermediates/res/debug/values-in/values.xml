@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/happyhours/platforms/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/values-in/values-in.xml -->
+    <eat-comment/>
+    <string name="messenger_send_button_text">Kirim</string>
+</resources>

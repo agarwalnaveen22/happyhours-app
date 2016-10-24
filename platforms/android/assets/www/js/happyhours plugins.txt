@@ -1,0 +1,4 @@
+cordova plugin add cordova-plugin-facebook4 --save --variable APP_ID="1168503923209021" --variable APP_NAME="HappyHours"
+
+
+cordova plugin add https://github.com/EddyVerbruggen/cordova-plugin-googleplus --save --variable REVERSED_CLIENT_ID=40333814019-f18mvp3mmbbo19vt52cc7m3hpjhn31hh.apps.googleusercontent.com

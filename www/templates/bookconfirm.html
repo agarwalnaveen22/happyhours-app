@@ -1,0 +1,33 @@
+
+<ion-view  hide-nav-bar="true">
+
+<ion-header-bar >
+<div class=" bar bar-header nav-bar-color headbar1" >
+<button ng-click="myGoBack()" class="button back-button buttons button-clear header-item" ><i class="icon ion-ios-arrow-back" ></i> 
+<span class="back-text" style="transform: translate3d(0px, 0px, 0px);"><span class="previous-title hide">undefined</span></span></button>
+<p class="homeTop" >ORDER CONFIRMATION</p>
+</div>
+</ion-header-bar>
+
+<ion-content  style="background:black;" overflow-scroll=true>
+<div class="bookconfirmicondiv">
+<button class="ion-checkmark-round bookconfirmicon" ></button>  
+</div>
+
+<p class="bookconfirmation">Your Order Has Been Confirmed</p>
+
+<div class="bookconfirmform" >
+<h4 class="para21">{{deal.Deal.description}}</h4>
+<p class="para2">Booking Id - HH{{orderId}}</p>
+<h4 class="para31" ng-if="deal.Deal.is_all_day==1">All Day</h4>
+<h4 class="para31" ng-if="deal.Deal.is_all_day==0">{{deal.Deal.start_time | date:'hh:mm a'}} To {{deal.Deal.end_time | date:'hh:mm a'}}</h4>
+<p class="para3">Valid till {{deal.Deal.end_date | date:'dd MMM'}}</p>
+<button class="ion-ios-location-outline location"></button>
+<h4 class="para4">{{deal.SupplierDetail.company_name| capitalize}} </h4>
+<p class="para5">{{deal.SupplierDetail.address_1| capitalize}}, {{deal.SupplierDetail.address_2}}</p>
+<button class="confirmButton" ng-click="showPopup()">DONE</button>
+</div>
+
+
+</ion-content>
+</ion-view>

@@ -1,0 +1,34 @@
+<ion-view hide-nav-bar=true>
+    <ion-header-bar style="background-color:black">
+        <!-- <div class=" bar bar-header"  > -->
+        <!-- <button ng-click="$ionicGoBack()" class="button back-button buttons button-clear header-item" ><i class="icon ion-ios-arrow-back" ></i>
+        <span class="back-text" style="transform: translate3d(0px, 0px, 0px);"><span class="previous-title hide">undefined</span></span></button> -->
+        <h1 class="title" style="color:white;text-align:center">Forget Password</h1>
+        <!-- </div> -->
+    </ion-header-bar>
+
+    <ion-content class="signupback">
+
+
+        <form name="myForm" id="signupForm" class="list" style="top:10%" ng-submit="submitForm()">
+
+
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">EMAIL ID</span>
+                <i class="icon ion-email placeholder-icon loginicon"></i>
+                <input class="icon  placeholder-icon loginLabel" name="email" ng-model="email" id="email" type="email" ng-pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" placeholder="email" style="background: transparent; color: white; ">
+
+            </label>
+
+
+
+
+            <div class="list" style="margin-top:3%">
+                <button type="submit" class="loginbutton button button-block buttonColor button-assertive  icon-right " style="color: black;background-color: white;width: 90%;margin-left: 5%;padding-left: 7%;padding-right: 8%;">Submit <img src="img/next_arrow_black.png" style="position: relative;float: right;top: 15px;"> </button>
+            </div>
+        </form>
+        <div class="list" style="margin-top:10%">
+            <button ng-click="goToPage('login')" type="button" class="loginbutton button button-block buttonColor button-assertive  icon-right " style="color: black;background-color: white;width: 90%;margin-left: 5%;padding-left: 7%;padding-right: 8%;">Back To Login </button>
+        </div>
+    </ion-content>
+</ion-view>

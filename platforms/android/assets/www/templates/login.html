@@ -1,0 +1,57 @@
+<ion-view hide-nav-bar="true">
+    <ion-content class="loginback">
+
+        <div style="position:relative;top:4vh;">
+            <div style="text-align:center;padding-bottom:10vh">
+                <img class="citylogo" src="img/logo.png">
+            </div>
+
+            <form novalidate name="myForm" id="loginForm" ng-submit="submitForm()" class="" style="top:19%">
+                <!-- <label class="">
+                  <span class="" style="font-size: 14px;color: #444; margin-left:40%;"></span>
+                  <input class="" type="email" placeholder="E-mail" name="email " ng-model="email" ng-pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" required>
+                  <span class="icon ion-email icon-left spanFloat" ></span>
+                  <span ng-if="myForm.email.$touched && myForm.email.$error.required  " class="">a*email is required.</span>
+                  <span ng-if="myForm.email.$invalid && !myForm.email.$error.required && myForm.email.$dirty " class="">*valid email required.</span>
+              </label>
+                -->
+                <label class="item positioning item-input item-stacked-label" style=" margin-left:12% ;width:75%; background:transparent;border:transparent; border-bottom-color: lightgrey; border-bottom-style:solid;border-bottom-width:1px">
+                    <span class="inputlabel2">EMAIL ADDRESS</span>
+                    <i class="icon ion-email placeholder-icon loginicon"></i>
+                    <input class="icon  placeholder-icon loginLabel" name="email" id="email" ng-model="email" type="email" ng-pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" placeholder="email" style="background: transparent; color: white; ">
+
+                </label>
+
+
+                <label class="item positioning item-input item-stacked-label" style="margin-left:12% ;width:75% ;background:transparent;border:transparent; border-bottom-color: lightgrey; border-bottom-style:solid;border-bottom-width:1px">
+                    <span class="inputlabel2">PASSWORD</span>
+                    <i class="icon ion-locked placeholder-icon loginicon"></i>
+                    <input class="ng-dirty ng-valid-parse ng-touched ng-invalid ng-invalid-required icon ion-locked placeholder-icon loginLabel" name="password" type="password" id="password" placeholder="password" style="background: transparent; color: white;" ng-model="password">
+                </label>
+                <div class="list2" style="margin-top:3%">
+                    <button type="submit" class="loginbutton button button-block buttonColor button-assertive  icon-right ">Get Started<img src="img/next_arrow_white.png" style="    position: relative;
+                                                                                                                                              float: right;
+                                                                                                                                              top: 15px;"> </button>
+                </div>
+            </form>
+            <div class="list2" style="margin-top:3%">
+
+                <div class="createAccount">
+                    <button class="signupbutton button button-light " ng-click="gotoSignup()" style="float:left;">Create Account</button>
+                    <p style="float: left;font-weight: lighter;font-size: 2em;color: gray;margin-top:11px;position: relative;padding-left: 0%;width: 0%;z-index: 111;"> /</p>
+                    <button class="forgotbutton button" ng-click="goToPage('forget')">Forgot Password</button>
+                </div>
+            </div>
+            <p style="color: #fff;text-align:center; color: #c50000;font-weight:900">or Login via
+                <br>
+                <p>
+                    <div style="text-align:center;">
+                        <!--   <a class="item item-avatar"><i class="icon ion-locked "></i></a>
+         <a class="item item-avatar"><i class="icon ion-locked"></i></a> -->
+                        <button class="socialMedia icon ion-social-facebook" ng-click="fbLogin()"></button>
+                        <button class="socialMedia icon ion-social-google " ng-click="googleLogin()"></button>
+                    </div>
+
+        </div>
+    </ion-content>
+</ion-view>

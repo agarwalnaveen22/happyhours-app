@@ -1,0 +1,45 @@
+
+<ion-view  hide-nav-bar="true"  style="background:black;">
+    <ion-header-bar >
+        <div class=" bar bar-header nav-bar-color headbar1" >
+            <button ng-click="myGoBack()" class="button back-button buttons button-clear header-item" >
+                <i class="icon ion-ios-arrow-back" ></i>
+                <span class="back-text" style="transform: translate3d(0px, 0px, 0px);">
+                    <span class="previous-title hide">undefined</span>
+                </span>
+            </button>
+            <p class="homeTop" >DEAL DETAILS</p>
+        </div>
+    </ion-header-bar>
+    <ion-content overflow-scroll=true>
+
+        <div class="dealdetails">
+
+            <img ng-if="deal.Deal.image == ''" src="img/beerback.jpg" style="width:90%; margin-left:5%">
+            <img ng-if="deal.Deal.image != ''" src="{{imageUrl}}{{deal.Deal.image}}" style="width:90%; margin-left:5%">
+
+        </div>
+        <div  class="detaildiv">
+            <h4 style="text-align:center;color:red;margin-bottom:-5px">Just pay ${{deal.Deal.amount}}</h4>
+            <h4 style="text-align:center;color:purple;margin-bottom:-11px"> {{deal.Deal.description}}</h4>
+            <h4 style="text-align:center;margin-bottom:4px;margin-bottom:-10px"> <fieldset class="rating1">
+                    <label for="star05" title="very good"></label>
+                    <label for="star04" title="good"></label>
+                    <label for="star03" title="average"></label>
+                    <label for="star02" title="bad"></label>
+                    <label for="star01" title="very bad"></label>
+                </fieldset></h4>
+            <h5 style="text-align:center;color:red;margin-bottom:-4px">{{deal.SupplierDetail.day_to}} to {{deal.SupplierDetail.day_from}}, {{deal.SupplierDetail.time_to}} to {{deal.SupplierDetail.time_from}} </h5>
+            <h5 style="text-align:center;color:orange;margin-bottom:">{{deal[0].distance| number : 2}} KM Away </h5>
+            <!--p style="text-align:center;color:black;font-size: 12px;margin-bottom:-2px;line-height:13px;">It’s been 140 years since Heineken has been able to call itself a microbrewer  Cheers! It’s been 140 years since Heineken has been able to call itself a microbrewer  Cheers! It’s been 140 years since Heineken has been able to a microbrewer  Cheers!</p-->
+            <h6 style="text-align:center;color:#11c1f3;margin-bottom:" >Valid Till: {{deal.Deal.end_date| date:'dd MMM yyyy'}}</h6>
+            <h4 style="text-align:center;margin-bottom:-10px"> <a class="ion-ios-location-outline" style="color:orange;"></a></h4>
+            <h5 style="text-align:center;color:red;margin-bottom:-3px" ng-click="goToMap(deal.Location.lat,deal.Location.lng)">{{deal.SupplierDetail.company_name| capitalize}}</h5>
+            <p style="text-align:center;color:gray;margin-bottom:font-size:small" ng-click="goToMap(deal.Location.lat,deal.Location.lng)"><i class="icon ion-location size-25"></i>&nbsp;&nbsp;{{deal.SupplierDetail.address_1| capitalize}}, {{deal.SupplierDetail.address_2}}</p>
+            <!--                    <button class="loginbutton button button-block buttonColor button-assertive  icon-right " ng-click="gotohomepage()" >Get Started<img src="img/next_arrow_white.png" style="position: relative;float: right;"> </button>    -->
+        </div>
+
+
+    </ion-content>
+    <ion-footer-bar style="background-color:#c50000;text-align:center;padding-bottom:50px;width:90%;margin-left:5%;"  ng-click="gotobook(deal.Deal.id)">                    <button class="loginbutton button button-block buttonColor button-assertive  icon-right " ng-click="gotohomepage()" >Book The Deal<img src="img/next_arrow_white.png" style="position: relative;float: right;top:7px"> </button>  </ion-footer-bar>       
+</ion-view>

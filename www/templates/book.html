@@ -1,0 +1,107 @@
+
+<ion-view  hide-nav-bar="true">
+
+
+
+    <ion-header-bar >
+        <div class=" bar bar-header nav-bar-color headbar1" >
+            <button ng-click="myGoBack()" class="button back-button buttons button-clear header-item" ><i class="icon ion-ios-arrow-back" ></i>
+                <span class="back-text" style="transform: translate3d(0px, 0px, 0px);"><span class="previous-title hide">undefined</span></span></button>
+            <p class="homeTop" >BOOK DEAL</p>
+        </div>
+    </ion-header-bar>
+
+
+    <ion-content  style="background:black;" >
+        <form novalidate name="myForm" id="bookForm" ng-submit="submitForm()" class="" style="top:19%">
+            <div class="bookDiv">
+                <p class="paymentMethod">SELECT PAYMENT METHOD</p>
+
+
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col col-80">
+                            <ion-checkbox ng-model="payment_mode1" name="payment_mode" ng-value="1" class="checkbox-assertive" style="border:none;background:transparent;color:white;border:none">Mcash</ion-checkbox>
+                        </div>
+                        <div class="col col-20">
+                            <img ng-src="img/logo1.png" style="width:75%"></img>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col col-50">
+                            <ion-checkbox ng-model="payment_mode2" name="payment_mode" ng-value="2" class="checkbox-assertive" style="border:none;background:transparent;color:white;border:none">Credit Card</ion-checkbox>
+                        </div>
+                        <div class="col col-50">
+                            <img ng-src="img/vma2.png" style="width:90%;margin-top:5%"></img>
+                        </div>
+                    </div>
+                    <!-- <ul>
+            <li>
+              <input type="radio" id="f-option" name="selector">
+              <label for="f-option"><img src="../img/logo1.png">MCash</label>
+          
+              <div class="check"></div>
+            </li>
+          
+            <li>
+              <input type="radio" id="s-option" name="selector">
+              <label for="s-option">New Credit Card</label>
+          
+              <div class="check"><div class="inside"></div></div>
+            </li>
+          </ul> -->
+                </div>
+                <!-- bookitem1,bookitem, ul li label,paymentmeyhod1 bookdiv container -->
+                <p class="paymentMethod1">CREDIT CARD DETAILS</p>
+                <div class="list" style="margin-top:-2%;">
+
+                    <label class="item item-input bookitem1">
+                        <input type="tel" ng-model="card_number" name="card_number" placeholder="credit card number" ng-keypress="return isNumber(event)" style="color:white;">
+                        <i class="icon icon-right placeholder-icon ion-card" ></i>
+                    </label>
+
+                    <label class="item item-input bookitem1" >
+                        <input type="text" ng-model="card_name" name="card_name" placeholder="name on card" style="color:white;">
+                        <i class="icon icon-right placeholder-icon ion-card" ></i>
+
+                    </label>
+                    <label class="item item-input bookitem1" >
+                        <input type="number" ng-model="card_cvv" name="card_cvv" placeholder="CVV" style="color:white;">
+                        <i class="icon icon-right placeholder-icon ion-card" ></i>
+
+                    </label>
+                    <label class="item item-input bookitem1" >
+                        <input type="text" ng-model="card_expire_month" name="card_expire_month" placeholder="expiry month" style="color:white;">
+                        <i class="icon icon-right placeholder-icon ion-android-calendar" ></i>
+
+                    </label>
+                    <label class="item item-input bookitem1" >
+                        <input type="text" ng-model="card_expire_year" name="card_expire_year" placeholder="expiry year" style="color:white;">
+                        <i class="icon icon-right placeholder-icon ion-android-calendar" ></i>
+
+                    </label>
+                    <p class="bookitem"><i class="icon icon-left ion-checkmark-round" style="padding-right:10px"></i>save my card</p>
+
+
+                    <!-- <button class="makepayment button button-block button-assertive" ng-click="gotobookconfirm();">
+                    MAKE PAYMENT
+                    </button>
+                    -->   <button class="makepayment button button-block button-assertive" type="submit" style="text-align:left;">Make Payment<img src="img/next_arrow_white.png" style="position: relative;float: right;top: 15px;"> </button>
+
+                </div>
+
+
+
+            </div>
+
+        </form>
+
+
+
+
+
+    </ion-content>
+</ion-view>

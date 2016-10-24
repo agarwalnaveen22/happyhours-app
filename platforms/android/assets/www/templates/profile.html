@@ -1,0 +1,125 @@
+
+<ion-view  hide-nav-bar="true">
+
+
+
+    <ion-header-bar >
+        <div class=" bar bar-header nav-bar-color headbar1" >
+            <button ng-click="myGoBack()" class="button back-button  button-clear header-item" ><i class="icon ion-ios-arrow-back" ></i> 
+                <span class="back-text" style="transform: translate3d(0px, 0px, 0px);"><span class="previous-title hide">undefined</span></span></button>
+            <p class="homeTop" >My Profile</p>
+        </div>
+    </ion-header-bar>
+    <ion-content  style="background:black;" >
+        <form name="myForm" id="profile" class="list" style="top:2%" ng-submit="submitForm()">
+
+
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">EMAIL ID</span>
+                <i class="icon ion-email placeholder-icon loginicon" ></i>
+                <input class="icon  placeholder-icon loginLabel" name="email" ng-model="email" type="email"  disabled placeholder="email" style="background: transparent; color: white; ">
+            </label>
+            
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">First Name</span>
+                <i class="icon ion-person placeholder-icon loginicon" ></i>
+                <input class="icon  placeholder-icon loginLabel" id="first_name" name="first_name" ng-model="first_name" type="text"  required placeholder="first name" style="background: transparent; color: white; ">
+                <span class="icon ion-person icon-left spanFloat" ></span>
+                <span ng-if="myForm.first_name.$touched && myForm.first_name.$error.required"  class="errorMessage1">*first name is required</span>
+            </label>
+            
+           <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">Last Name</span>
+                <i class="icon ion-person placeholder-icon loginicon" ></i>
+                <input class="icon  placeholder-icon loginLabel" name="last_name" ng-model="last_name" type="text"  required placeholder="last name" style="background: transparent; color: white; ">
+                <span class="icon ion-person icon-left spanFloat" ></span>
+                <span ng-if="myForm.last_name.$touched && myForm.last_name.$error.required"  class="errorMessage1">*last name is required</span>
+            </label>
+            
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">Phone</span>
+                <i class="icon ion-android-call placeholder-icon loginicon" ></i>
+                <input class="icon  placeholder-icon loginLabel" name="phone" ng-model="phone" type="tel"  required placeholder="phone" style="background: transparent; color: white;">
+                <span class="icon ion-android-call icon-left spanFloat" ></span>
+                <span ng-if="myForm.phone.$touched && myForm.phone.$error.required"  class="errorMessage1">*phone is required</span>
+            </label>
+            
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">Country</span>
+                <i class="icon ion-android-person-add placeholder-icon loginicon" ></i>
+                <select name="country_id" ng-model="country_id" ng-change="getStates(country_id)" required>
+                    <option value="">Select</option>
+                    <option ng-repeat="(key,value) in countries" value="{{key}}">{{value}}</option>
+                </select>
+                <span class="icon ion-android-person-add icon-left spanFloat" ></span>
+                <span ng-if="myForm.country_id.$touched && myForm.country_id.$error.required"  class="errorMessage1">*country is required</span>
+            </label>
+            
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">State</span>
+                <i class="icon ion-android-person-add placeholder-icon loginicon" ></i>
+                <select name="state_id" ng-model="state_id" ng-change="getCities(state_id)" required>
+                    <option value="">Select</option>
+                    <option ng-repeat="(key,value) in states" value="{{key}}">{{value}}</option>
+                </select>
+                <span class="icon ion-android-person-add icon-left spanFloat" ></span>
+                <span ng-if="myForm.state_id.$touched && myForm.state_id.$error.required"  class="errorMessage1">*state is required</span>
+            </label>
+            
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">City</span>
+                <i class="icon ion-android-person-add placeholder-icon loginicon" ></i>
+                <select name="city_id" ng-model="city_id" required>
+                    <option value="">Select</option>
+                    <option ng-repeat="(key,value) in cities" value="{{key}}">{{value}}</option>
+                </select>
+                <span class="icon ion-android-person-add icon-left spanFloat" ></span>
+                <span ng-if="myForm.city_id.$touched && myForm.city_id.$error.required"  class="errorMessage1">*city is required</span>
+            </label>
+            
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">Address</span>
+                <i class="icon ion-location placeholder-icon loginicon" ></i>
+                <textarea class="icon  placeholder-icon loginLabel" name="address" ng-model="address"  required placeholder="address" style="background: transparent; color: white;"></textarea>
+                <span class="icon ion-location icon-left spanFloat" ></span>
+                <span ng-if="myForm.address.$touched && myForm.address.$error.required"  class="errorMessage1">*address is required</span>
+            </label>
+
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">Postal Code</span>
+                <i class="icon ion-location placeholder-icon loginicon" ></i>
+                <input class="icon  placeholder-icon loginLabel" name="postal_code" ng-model="postal_code" type="tel"  required placeholder="postal code" style="background: transparent; color: white;">
+                <span class="icon ion-location icon-left spanFloat" ></span>
+                <span ng-if="myForm.postal_code.$touched && myForm.postal_code.$error.required"  class="errorMessage1">*postal code is required</span>
+            </label>
+
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">PASSWORD</span>
+                <i class="icon ion-locked placeholder-icon loginicon"></i>
+                <input class="icon ion-locked placeholder-icon loginLabel" type="password" placeholder="Password"  ng-model="password"  name="password" ng-minlength="8" ng-maxlength="20" ng-pattern="/(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z])/"  style="background: transparent; color: white;">
+
+                <span class="icon ion-locked icon-left spanFloat" ></span>
+
+                
+
+
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">CONFIRM PASSWORD</span>
+                <i class="icon ion-locked placeholder-icon loginicon" ></i>
+                <input class="icon ion-locked placeholder-icon loginLabel" type="password" placeholder="Confirm Password" style="background: transparent; color: white;" name="myConfirmPassword" ng-model="confirmpassword">
+                <span class="icon ion-locked icon-left spanFloat" ></span>
+                <span ng-if="password != confirmpassword" class="errorMessage1">Passwords do not match.</span>
+            </label>
+
+
+
+
+
+
+
+            <div class="list" style="margin-top:3%">
+                <button type="submit" class="loginbutton button button-block buttonColor button-assertive  icon-right " style="color: black;background-color: white;width: 90%;margin-left: 5%;padding-left: 7%;padding-right: 8%;"  >Update </button>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

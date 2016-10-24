@@ -1,0 +1,2 @@
+D:\happyhours\platforms\android\build\intermediates\classes\debug
+D:\happyhours\platforms\android\build\intermediates\pre-dexed\debug\classes-2b7a3fdc1251e1bb9dc49931547a33496cff651f.jar

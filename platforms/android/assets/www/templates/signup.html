@@ -1,0 +1,61 @@
+<ion-view hide-nav-bar=true>
+    <ion-header-bar style="background-color:black">
+        <!-- <div class=" bar bar-header"  > -->
+        <!-- <button ng-click="$ionicGoBack()" class="button back-button buttons button-clear header-item" ><i class="icon ion-ios-arrow-back" ></i>
+        <span class="back-text" style="transform: translate3d(0px, 0px, 0px);"><span class="previous-title hide">undefined</span></span></button> -->
+        <h1 class="title" style="color:white;text-align:center">New Account</h1>
+        <!-- </div> -->
+    </ion-header-bar>
+
+    <ion-content class="signupback">
+        <div class="regSignup">
+            <p>Registration</p>
+        </div>
+
+        <form name="myForm" id="signupForm" class="list" style="top:10%" ng-submit="submitForm()">
+
+
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">EMAIL ID</span>
+                <i class="icon ion-email placeholder-icon loginicon"></i>
+                <input class="icon  placeholder-icon loginLabel" name="email" ng-model="email" type="email" ng-pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/" required placeholder="email" style="background: transparent; color: white; ">
+                <span ng-if="myForm.email.$touched && myForm.email.$error.required" class="errorMessage1">*email is required.</span>
+                <span ng-if="myForm.email.$error.pattern && !myForm.email.$error.required && myForm.email.$dirty" class="errorMessage1">*valid email required.</span>
+            </label>
+
+
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">PASSWORD</span>
+                <i class="icon ion-locked placeholder-icon loginicon"></i>
+                <input class="icon ion-locked placeholder-icon loginLabel" type="password" placeholder="Password" ng-model="password" name="password" ng-minlength="8" ng-maxlength="20" ng-pattern="/(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z])/" required style="background: transparent; color: white; ">
+
+                <span class="icon ion-locked icon-left spanFloat"></span>
+                <span ng-if="myForm.password.$touched & amp; & amp; myForm.password.$error.required" class="errorMessage1">*password required</span>
+
+                <span ng-if="!myForm.password.$m.required && (myForm.password.$error.minlength || myForm.password.$error.maxlength) && myForm.password.$dirty" class="errorMessage1">minimum 8 characters</span>
+                <span ng-if="!myForm.password.$error.required && !myForm.password.$error.minlength && !myForm.password.$error.maxlength && myForm.password.$error.pattern && myForm.password.$dirty" class="errorMessage1">alphanumeric & atleast 1 uppercase letter</span>
+            </label>
+
+
+            <label class="item item-input item-stacked-label signupPadding" style="">
+                <span class="inputlabel2">CONFIRM PASSWORD</span>
+                <i class="icon ion-locked placeholder-icon loginicon"></i>
+                <input class="icon ion-locked placeholder-icon loginLabel" type="password" placeholder="Confirm Password" style="background: transparent; color: white; name=" myConfirmPassword " ng-model="confirmpassword " valid-password-c required">
+                <span ng-if="password != confirmpassword" class="errorMessage1">Passwords do not match.</span>
+            </label>
+
+
+
+
+
+
+
+            <div class="list" style="margin-top:3%">
+                <button type="submit" class="loginbutton button button-block buttonColor button-assertive  icon-right " style="color: black;background-color: white;width: 90%;margin-left: 5%;padding-left: 7%;padding-right: 8%;">Get Started <img src="img/next_arrow_black.png" style="position: relative;float: right;top: 15px;"> </button>
+            </div>
+        </form>
+        <div class="list" style="margin-top:10%">
+            <button ng-click="goToPage('login')" type="button" class="loginbutton button button-block buttonColor button-assertive  icon-right " style="color: black;background-color: white;width: 90%;margin-left: 5%;padding-left: 7%;padding-right: 8%;">Back To Login </button>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.14.1\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "D:\\happyhours\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\happyhours\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    }
+]

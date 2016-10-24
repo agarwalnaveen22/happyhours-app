@@ -1,0 +1,27 @@
+<ion-view hide-nav-bar="true" cache="false">
+
+
+
+
+    <ion-header-bar>
+        <div class=" bar bar-header nav-bar-color headbar1">
+            <button ng-click="myGoBack()" class="button back-button buttons button-clear header-item"><i class="icon ion-ios-arrow-back"></i>
+                <span class="back-text" style="transform: translate3d(0px, 0px, 0px);"><span class="previous-title hide">undefined</span></span>
+            </button>
+            <p class="homeTop">History</p>
+        </div>
+    </ion-header-bar>
+
+    <ion-content style="background:black;" overflow-scroll="true">
+
+
+        <div class="historymaindiv" ng-repeat="order in orders">
+            <img class="hisdivDiv" src="{{imageUrl}}{{order.Deal.image}}" />
+            <p class="hisPara1">{{order.Deal.SupplierDetail.company_name | capitalize}}</p>
+            <p class="hisPara2"> ${{order.Deal.amount}}</p>
+            <p class="hisPara3">{{order[0].created | date:'EEEE'}},</p>
+            <p class="hisPara5">{{order[0].created | date:'dd MMMM yyyy'}}</p>
+        </div>
+
+    </ion-content>
+</ion-view>
